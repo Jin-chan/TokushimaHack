@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*============================================
+ヘッダ
+============================================*/
+div#header {
+
+}
+div#header-text {
+	height:50px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
+	background-color:#FFFAF0;	/*ヘッダ部分の背景画像*/
+	background-size:cover;
+	opacity:0.8;
+	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
+		/*ヘッダ部分の背景色*/
+}
+
+
+h1 { display:inline; 
+	padding:20px 0px 0px 30px;		/*見出し内容の位置調整*/
+	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
+}
+h1 a {text-decoration:none;} 			/*リンクの下線を無くす*/
+p { display:inline; 
+	padding:20px 0px 0px 30px;		/*見出し内容の位置調整*/
+	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
+	text-align: right;
+}
+p a {text-decoration:none;} 			/*リンクの下線を無くす*/
+
+p.text {text-decoration:none;} 
+
+div#contents{
+	height:500px;
+}
+
+div#footer{	
+	height:250px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
+	background-color:#FFFAF0;	/*ヘッダ部分の背景画像*/
+	background-size:cover;
+	opacity:0.8;
+}
+
+/* ボタン */
+button {
+	width:320px;
+	height:100px;
+	background-color: orange;
+	color:white;
+	font-size:30px;
+	
+	border-width:0px;
+	border-color:white;
+	border-radius:0px;
+	
+	margin: 15px;
+	}
+	
+button:hover {
+	background-color: #59b1eb;
+}
+
+
+
+
+
+

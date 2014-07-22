@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*============================================
+ヘッダ
+============================================*/
+body {
+	background-image: url("../img/haikei.jpg"); /*ヘッダ部分の背景画像*/
+	background-size: cover;
+	background-repeat: no-repeat; /*背景画像を繰り返さない*/
+	background-attachment: fixed;
+}
+h1 {
+	display: inline;
+	padding: 20px 0px 0px 30px; /*見出し内容の位置調整*/
+	font-family: Arial, Helvetica, sans-serif; /*フォントの種類*/
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+ /*リンクの下線を無くす*/
+p {
+	display: inline;
+	padding: 20px 0px 0px 30px; /*見出し内容の位置調整*/
+	font-family: Arial, Helvetica, sans-serif; /*フォントの種類*/
+	text-align: right;
+}
+
+p a {
+	text-decoration: none;
+}
+
+ /*リンクの下線を無くす*/
+div#contents {
+	height: 600px;
+	width: 600px;
+	background-color: ivory;
+}
+
+/* 共通部分 */
+#imagemap {
+	z-index: 0;
+	margin: 0px auto;
+	padding: 0px;
+	background: transparent url(../img/map1-1.png) top left no-repeat;
+	width: 600px;
+	height: 490px;
+	position: relative;
+}
+
+#imagemap li {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+}
+
+#imagemap a {
+	position: absolute;
+}
+
+#imagemap a span {
+	display: none;
+}
+
+/* 北海道 */
+#hokkaido {
+	z-index: 2;
+	top: 0px;
+	left: 295px;
+}
+
+#hokkaido a {
+	width: 350px;
+	height: 265px;
+}
+
+#hokkaido a:hover {
+	z-index: 2;
+	background: url(../img/map1-1.png) -295px -490px no-repeat;
+}
+
+/* 東北 */
+#touhoku {
+	z-index: 2;
+	top: 45px;
+	left: 0px;
+}
+
+#touhoku a {
+	width: 340px;
+	height: 255px;
+}
+
+#touhoku a:hover {
+	z-index: 2;
+	background: url(../img/map1-1.png) -0px -1515px no-repeat;
+}
+
+/* 関東 */
+#kanto {
+	z-index: 3;
+	top: 180px;
+	left: 200px;
+}
+
+#kanto a {
+	width: 410px;
+	height: 290px;
+}
+
+#kanto a:hover {
+	z-index: 3;
+	background: url(../img/map1-1.png) -200px -1160px no-repeat;
+}
+
+/* ●日本地図下の地域リスト */
+#area {
+	margin: 20px auto;
+	width: 600px;
+}
+
+#area li {
+	float: left;
+	text-indent: -5px;
+	font-size: 14px;
+	font-family: sans-serif;
+	padding: 0 30px 0 0;
+}
+
+#area li a {
+	text-decoration: none;
+	color: #2d67ee;
+}
+
+#area li a:hover {
+	text-decoration: underline;
+	color: #f1710f;
+}
+
+#map{
+	margin-top: 10%;
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*============================================
+ヘッダ
+============================================*/
+body{
+background-image:url("img/Naruto_Channel,Naruto-city,Japan.JPG");/*ヘッダ部分の背景画像*/
+
+/* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+ 
+/* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+ 
+/* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat:no-repeat;
+}
+ 
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+    }
+}
+    
+  
+div.box{
+    background: rgba(0, 0, 0, 0.5); /* RGBを10進数(0～255)で指定、不透明度を0～1.0で指定 */
+    width:400px;
+    height:300px;
+    top:600px;
+}
+
+
+}
+div#loginform {
+    align:center;
+	height:1000px;	/*背景画像のサイズに合わせてボックスの高さを指定*/	 
+	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
+		/*ヘッダ部分の背景色*/
+}
+
+
+
+

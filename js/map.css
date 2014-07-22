@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*============================================
+ヘッダ
+============================================*/
+div#header {
+	height:300px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
+	background-image:url("img/uzushio.jpg");	/*ヘッダ部分の背景画像*/
+	background-size:cover;
+	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
+		/*ヘッダ部分の背景色*/
+}
+div#header-text {
+	height:50px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
+	background-color:#FFFAF0;	/*ヘッダ部分の背景画像*/
+	background-size:cover;
+	opacity:0.8;
+	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
+		/*ヘッダ部分の背景色*/
+}
+
+
+h1 { display:inline; 
+	padding:20px 0px 0px 30px;		/*見出し内容の位置調整*/
+	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
+}
+h1 a {text-decoration:none;} 			/*リンクの下線を無くす*/
+p { display:inline; 
+	padding:20px 0px 0px 30px;		/*見出し内容の位置調整*/
+	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
+	text-align: right;
+}
+p a {text-decoration:none;} 			/*リンクの下線を無くす*/
+
+div#contents{
+	height:600px;
+	width:600px;
+	background-color: ivory ;
+
+}
+
+/* ボタン */
+button {
+	width:320px;
+	height:100px;
+	background-color: orange;
+	color:white;
+	font-size:30px;
+	
+	border-width:0px;
+	border-color:white;
+	border-radius:0px;
+	
+	margin: 15px;
+	}
+	
+button:hover {
+	background-color: #59b1eb;
+}
+
+
+/* 共通部分 */
+#imagemap {
+	z-index:0;
+	margin: 0px auto;
+	padding: 0px;
+	background: transparent url(img/tokushima6.gif) top left no-repeat;
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+#imagemap li {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+}
+#imagemap a {
+	position: absolute;
+}
+#imagemap a span {
+	display: none;
+}
+
+/* 北海道 */
+#hokkaido {
+	z-index: 2;
+	top: 80px;
+	left: 322px;
+}
+#hokkaido a {
+	width: 120px;
+	height: 150px;
+}
+#hokkaido a:hover {
+	z-index: 2;
+	background: url(img/tokushima7.gif) -320px -1580px no-repeat;
+}
+
+/* 東北 */
+#touhoku {
+	z-index: 2;
+	top: 105px;
+	left: 10px;
+}
+#touhoku a {
+	width: 340px;
+	height: 185px;
+}
+#touhoku a:hover {
+	z-index: 2;
+	background:  url(img/tokushima7.gif) -10px -605px no-repeat;
+}
+
+
+
+/* 関東 */
+#kanto {
+
+	z-index: 3;
+	top: 220px;
+	left: 140px;
+}
+#kanto a {
+	width: 320px;
+	height: 190px;
+}
+#kanto a:hover {
+	z-index: 3;
+	background:  url(img/tokushima7.gif) -140px -1220px no-repeat;
+}
+
+#nanbu :hover {
+	z-index: 3;
+	background:  url(img/nanbu.gif)  no-repeat;
+}
+
+
+/* ●日本地図下の地域リスト */
+#area {
+	margin: 20px auto;
+	width: 600px;
+}
+#area li {
+	float:left;
+	text-indent:-5px;
+	font-size: 14px;
+	font-family: sans-serif;
+	padding: 0 30px 0 0;
+}
+#area li a {
+	text-decoration: none;
+	color: #2d67ee;
+}
+#area li a:hover {
+	text-decoration: underline;
+	color: #f1710f;
+}
+
