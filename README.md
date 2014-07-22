@@ -1,6 +1,5 @@
-#DMTC -エンジニアを目指す学生のための国内最大ハッカソン型エンジニア育成プログラム
-  [Hackathon -Innovation for Local-](https://dmtc.jp/event?id=1)
-  チームB プロダクト
+[DMTC Hackathon -Innovation for Local-](https://dmtc.jp/event?id=1)  
+チームB プロダクト
 =============
 
 ##プログラム内容
