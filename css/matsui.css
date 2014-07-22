@@ -51,6 +51,17 @@ div#topMenu {
 
 }
 
+div.error{
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 30px;
+    margin: 100px;
+    font-size: 30px;
+    border-width: 0px;
+    border-color: white;
+}
+
 div#footer {
 	margin: 5px;
 	padding: 5px;
@@ -157,7 +168,7 @@ p {
 	text-align: right;
 }
 
-p a {
+a {
 	text-decoration: none;
 } /*リンクの下線を無くす*/
 p.text {
