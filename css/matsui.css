@@ -42,12 +42,13 @@ div#contents {
 }
 
 div#topMenu {
-	height: 440px;
 	width: 30%;
 	float: left;
 	background-color: #FFFAF0; /*ヘッダ部分の背景画像*/
 	background-size: cover;
 	opacity: 0.8;
+        padding: 20px;
+
 }
 
 div#footer {
