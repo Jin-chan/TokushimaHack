@@ -1,5 +1,4 @@
-[DMTC Hackathon -Innovation for Local-](https://dmtc.jp/event?id=1)  
-チームB プロダクト
+[DMTC Hackathon -Innovation for Local-](https://dmtc.jp/event?id=1)  チームB プロダクト
 =============
 
 ##プログラム内容
